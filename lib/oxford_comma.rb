@@ -2,6 +2,8 @@ def oxford_comma(array)
   case array.length
   when 1 
       array.join
+      puts(array)
+      puts("AHAHAHAH")
       return array
     when 2 
       array.join(" and ")
